@@ -5,6 +5,6 @@ cd langchain-medical-bot
 Create a Python virtual environment (optional but recommended):
 
 python -m venv venv
-source venv/bin/activate  # On Windows, use: venv\Scripts\activate
+venv\Scripts\activate
 
 download all requirements
