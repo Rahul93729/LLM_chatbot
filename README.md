@@ -13,6 +13,9 @@ A compassionate and intelligent mental health chatbot designed to assist users i
 ## Abstract
 The Mental Health Chat Bot is an AI-driven virtual assistant designed to facilitate conversations that promote mental well-being. Leveraging Python and advanced NLP libraries like LangChain, this chatbot engages users in a supportive dialogue, offering a non-judgmental listening ear. In addition to conversational support, it provides helpful resources tailored to individual needs, such as relaxation techniques and contact information for professional help. The chatbot's primary aim is to offer a safe and confidential space for users to express their thoughts and feelings, making mental health care more accessible and less stigmatized.
 
+
+![image](https://github.com/user-attachments/assets/ba8e8317-61f9-4af9-8459-bd3f565fbc25)
+
 ## Installation
 
 ### Step 1: Clone the Repository
