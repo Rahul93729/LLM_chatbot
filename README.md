@@ -34,4 +34,15 @@ Download and install all the required Python packages:
 Copy code
 pip install -r requirements.txt
 
+
+### Step 5 Running Chainlit (if applicable)
+If your project uses Chainlit, follow these steps:
+
+### Step 6 Install Chainlit (if not already installed):
+pip install chainlit
+Run Chainlit:
+
+
+chainlit run model.py -w
+
 ```bash
