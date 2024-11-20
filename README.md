@@ -1,3 +1,22 @@
+to run 
+python -m venv venv
+venv\Scripts\activate
+
+pip install fastapi uvicorn pydantic python-multipart
+
+then run this 
+uvicorn app:app --reload --port 8000
+
+make sure you have static folder and app.py only
+
+
+
+
+
+
+
+
+
 # Mental Health Chat Bot
 
 A compassionate and intelligent mental health chatbot designed to assist users in managing their mental well-being. Built using Python and natural language processing capabilities, this chatbot offers meaningful conversations and resources to promote emotional health.
