@@ -397,6 +397,24 @@
       .category-game-link:hover {
         transform: scale(1.1);
       }
+      .emotion-detection-btn {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        background: var(--secondary-color);
+        color: white;
+        padding: 12px 24px;
+        border-radius: 25px;
+        cursor: pointer;
+        z-index: 1000;
+        border: none;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s ease;
+      }
+      
+      .emotion-detection-btn:hover {
+        transform: scale(1.05);
+      }
     </style>
   </head>
   <body>
@@ -796,6 +814,10 @@
           closeGamesModal();
         }
       });
+      function openEmotionDetection() {
+        window.open('http://127.0.0.1:5000/', '_blank');
+      }
     </script>
+    <button class="emotion-detection-btn" onclick="openEmotionDetection()">🧠 Emotion Detection</button>
   </body>
 </html>
